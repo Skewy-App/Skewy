@@ -79,7 +79,6 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
    * User would be able to create a new bill outlining all cost details, as well as a quote for customers who are simply requesting an estimate on their repairs.
    
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
 <img src="https://github.com/Skewy-App/Skewy/blob/main/Skewy%20paper%20wireframe.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
