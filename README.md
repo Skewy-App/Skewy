@@ -80,7 +80,7 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
    
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/Skewy-App/Skewy/blob/main/Skewy%20paper%20wireframe.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
