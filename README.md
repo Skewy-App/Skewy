@@ -68,12 +68,12 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 **Flow Navigation** (Screen to Screen)
 
 * LogIn/SignUp (after credentials are entered)
-   * Enters to the feed of In-progress orders with tab bar controller on the top.
+   * Enters to the feed of In-progress orders with tab bar controller on the bottom.
        * If an entry is tapped, then the user is moved to a screen where all details regarding that work order can be viewed. 
 * Add an Order
-   * Takes user to the screen where they can create a new work order with all the car, customer, and service details; with tab bar controller on the top.
+   * Takes user to the screen where they can create a new work order with all the car, customer, and service details; with tab bar controller on the bottom.
 * Past orders
-   * Jumps to another feed screen, this time consisting of all past/completed work orders; with tab bar controller on the top.
+   * Jumps to another feed screen, this time consisting of all past/completed work orders; with tab bar controller on the bottom.
       * Tapping any entry would, again, move to a page consisting of all order details.
 * Billing
    * User would be able to create a new bill outlining all cost details, as well as a quote for customers who are simply requesting an estimate on their repairs.
