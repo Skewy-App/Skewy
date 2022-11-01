@@ -2,21 +2,21 @@
 
 ## Table of Contents
 1. [Overview](#Overview)
-1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
-2. [Schema](#Schema)
+2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
+4. [Schema](#Schema)
 
 ## Overview
 ### Description
-[Description of your app]
+Keeps track of vehicles currently being operated on in an auto repair shop. Technician will be able to include details of the repair, estimated wait time, if there are any delays, and billing information all in one area. 
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
+- **Category:** Auto Repair
+- **Mobile:** Our main focus will be developing Skewy for mobile phone use. Having been to auto repair shops countless times ourselves, we've noticed that the technicians always have a work mobile device on their person to keep info updated.
+- **Story:**  The way auto repair technicians update info is by texting/emailing updates to each other for those updates to later have to be re-uploaded onto the customer profile. Skewy both saves time, and contributes to decreasing margin of error. 
+- **Market:** Our main target user base would be auto repair technicians, however the app will be designed in a way that any service-based business would be able to utilize it. 
+- **Habit:** This app would be able to replace the current lacking reporting system in the auto repair industry, and would increase productivity on daily basis. 
 - **Scope:**
 
 ## Product Spec
