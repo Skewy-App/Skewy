@@ -114,8 +114,7 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
       print(error.localizedDescription)
    } else if let orders = orders {
       print("Successfully retrieved \(orders.count) orders.”)
-   }
-  }
+   }  }
   ```
   * (Update/PUT) Edit existing work order.
   * (Delete/DELETE) Delete existing work order.
