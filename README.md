@@ -106,7 +106,7 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 **List of network requests by screen**
 * In Progress
   * (Read/GET) Query all posts where “Complete” is NOT selected.
-  '''swift
+  ```swift
   let query = PFQuery(className:”WorkOrder”)
 query.whereKey(“licensePlate”, equalTo: currentVehicle)
 query.findObjectsInBackground { (orders: [PFObject]?, error: Error?) in
@@ -116,7 +116,7 @@ query.findObjectsInBackground { (orders: [PFObject]?, error: Error?) in
       print("Successfully retrieved \(orders.count) orders.”)
    }
 }
-'''
+```
   * (Update/PUT) Edit existing work order.
   * (Delete/DELETE) Delete existing work order.
 
