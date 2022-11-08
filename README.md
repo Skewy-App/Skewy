@@ -104,18 +104,18 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 
 ### Networking
 **List of network requests by screen**
-*In Progress
+* In Progress
   * (Read/GET) Query all posts where “Complete” is NOT selected.
   * (Update/PUT) Edit existing work order.
   * (Delete/DELETE) Delete existing work order.
 
-*Add Order
+* Add Order
   * (Create/POST) Create a new order
 
-*Past Orders
+* Past Orders
   * (Read/GET) Query all posts where “Complete” is selected.
 
-*Billing
+* Billing
   * (Create/POST) Create a Bill
   * (Create/POST) Create a Quote
 
