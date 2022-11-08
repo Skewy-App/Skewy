@@ -107,8 +107,8 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 * In Progress
   * (Read/GET) Query all posts where “Complete” is NOT selected.
   ```swift
-  let query = PFQuery(className:”WorkOrder”)
-  query.whereKey(“licensePlate”, equalTo: currentVehicle)
+  let query = PFQuery(className:”Status”)
+  query.whereKey(“Status”, equalTo: NotComplete)
   query.findObjectsInBackground { (orders: [PFObject]?, error: Error?) in
    if let error = error { 
       print(error.localizedDescription)
