@@ -103,6 +103,22 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 
 
 ### Networking
-- [Add list of network requests by screen ]
+**List of network requests by screen**
+*In Progress
+  * (Read/GET) Query all posts where “Complete” is NOT selected.
+  * (Update/PUT) Edit existing work order.
+  * (Delete/DELETE) Delete existing work order.
+
+*Add Order
+  * (Create/POST) Create a new order
+
+*Past Orders
+  * (Read/GET) Query all posts where “Complete” is selected.
+
+*Billing
+  * (Create/POST) Create a Bill
+  * (Create/POST) Create a Quote
+
+
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
