@@ -94,7 +94,7 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 | technicianName  | String   | main technician working on the vehicle                   |
 | vehicleChar     | String   | vehicle identifying information                          |
 | finishTime      | DateTime | expected end time of car maintenance                     |
-| serviceNeeded   | String   | details of the work being done on the car                |
+| serviceInfo     | String   | details of the work being done on the car                |
 | timeTaken       | Number   | total time taken from start to finish (past orders tab)  |
 | serviceName     | String   | name of service done as it would appear on the bill      |
 | serviceCost     | Number   | how much a specific service cost                         |
