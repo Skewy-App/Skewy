@@ -83,7 +83,7 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
 **Post**
 
