@@ -124,6 +124,16 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 
 * Past Orders
   * (Read/GET) Query all posts where “Complete” is selected.
+  ```swift
+  let query = PFQuery(className:”Status”)
+  query.whereKey(“Status”, equalTo: Complete)
+  query.findObjectsInBackground { (orders: [PFObject]?, error: Error?) in
+   if let error = error { 
+      print(error.localizedDescription)
+   } else if let orders = orders {
+      print("Successfully retrieved \(orders.count) orders.”)
+   }  }
+  ```
 
 * Billing
   * (Create/POST) Create a Bill
