@@ -129,6 +129,14 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
   ```
   * (Delete/DELETE) Delete existing work order.
 
+  ```swift
+  query.findObjectsInBackground { (orders, error) in
+        if error == nil,
+            let status = “NotComplete” {
+            for orders in “InProgress” {
+                order.deleteInBackground()
+            }}
+    ```
 * Add Order
   * (Create/POST) Create a new order
   ```swift
