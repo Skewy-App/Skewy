@@ -151,5 +151,3 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
         query.includeKeys(["licensePlate", "vehicleChar", "serviceName", "serviceCost", "totalCost"])
   ```
 
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
