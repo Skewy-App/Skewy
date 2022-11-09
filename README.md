@@ -121,6 +121,10 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 
 * Add Order
   * (Create/POST) Create a new order
+  ```swift
+  let query = PFQuery(className:"AddOrder")
+        query.includeKeys(["licensePlate", "technicianName", "vehicleChar", "finishTime", "serviceInfo"])
+  ```
 
 * Past Orders
   * (Read/GET) Query all posts where “Complete” is selected.
@@ -137,8 +141,15 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 
 * Billing
   * (Create/POST) Create a Bill
+  ```swift
+  let query = PFQuery(className:"createBill")
+        query.includeKeys(["licensePlate", "vehicleChar", "serviceName", "serviceCost", "totalCost"])
+  ```
   * (Create/POST) Create a Quote
-
+  ```swift
+    let query = PFQuery(className:"createQuote")
+        query.includeKeys(["licensePlate", "vehicleChar", "serviceName", "serviceCost", "totalCost"])
+  ```
 
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
