@@ -117,6 +117,16 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
    }  }
   ```
   * (Update/PUT) Edit existing work order.
+    ```swift
+      let query = PFQuery(className:"orders")
+      query.getObjectInBackground { (orders: PFObject?, error: Error?) in
+    if let status = "Complete" {
+        print(error.localizedDescription)
+    } else if let status = NotComplete {
+        orders["InProgress"] = true
+        orders.saveInBackground()
+    }}
+    ```
   * (Delete/DELETE) Delete existing work order.
 
 * Add Order
