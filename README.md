@@ -25,7 +25,7 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 
 **Required Must-have Stories**
 
-* Technician would be able to create their own account.
+- [ ] Technician would be able to create their own account.
 * Technician would login with their own credentials.
 * Technician can add a new work order.
 * Orders in progress can be viewed.
