@@ -1,0 +1,6 @@
+framework module Pods_SkewyTests {
+  umbrella header "Pods-SkewyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

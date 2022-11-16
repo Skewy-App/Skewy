@@ -1,0 +1,6 @@
+framework module Pods_Skewy {
+  umbrella header "Pods-Skewy-umbrella.h"
+
+  export *
+  module * { export * }
+}
