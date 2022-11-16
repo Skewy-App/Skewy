@@ -4,7 +4,7 @@
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/mdarwish2020/Instagram/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%208%20-%202022-10-13%20at%2023.49.33.gif' />
+<img src='https://github.com/Skewy-App/Skewy/blob/main/Skewy_Sprint1.gif' />
 
 
 
