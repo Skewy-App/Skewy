@@ -1,5 +1,16 @@
 # Skewy App
 
+## Build Sprint 1 video walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/mdarwish2020/Instagram/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%208%20-%202022-10-13%20at%2023.49.33.gif' />
+
+
+
+
+
+
 ## Table of Contents
 1. [Overview](#Overview)
 2. [Product Spec](#Product-Spec)
