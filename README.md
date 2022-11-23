@@ -40,8 +40,7 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 - [x] Technician would login with their own credentials.
 - [ ] Technician can add a new work order.
 - [x] Orders in progress can be viewed.
-- [ ] Past service orders with all details can be viewed.
-- [ ] Technician can create/edit a bill, or formulate a quote for the customer.
+- [x] Past service orders with all details can be viewed.
 
 **Optional Nice-to-have Stories**
 
@@ -54,7 +53,7 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
    * User can create a new account if it's their first time, or simpy log in with their existing credentials.
 * Feed
    - [x] User can view all service orders currently in progress.
-   - [ ] User can tap on any of the work orders to reveal all details, including: car description, main technician working on the car, customer info, billing info, estimated time for the repair, and what exactly the car needs.
+   - [x] User can tap on any of the work orders to reveal all details, including: car description, main technician working on the car, customer info, billing info, estimated time for the repair, and what exactly the car needs.
    
 * Add an order
    - [x] User can add all the same type of info they were able to view on the feed entired except on an entry that they've now created.
@@ -62,8 +61,6 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 * Past orders
    - [x] This screen will look very similar to the feed, except it'll be made up of all past orders that have been completed.
    
-* Billing
-   - [ ] User can create a new bill or quote which would autmatically provide the total by adding up all recorded charges and fees.
    
 
 ### 3. Navigation
