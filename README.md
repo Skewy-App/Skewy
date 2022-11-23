@@ -1,11 +1,18 @@
 # Skewy App
 
+## Build Sprint 2 video walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/Skewy-App/Skewy/blob/main/Skewy_Sprint2.gif' />
+
+
+
 ## Build Sprint 1 video walkthrough
 
 Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/Skewy-App/Skewy/blob/main/Skewy_Sprint1.gif' />
-
 
 
 
