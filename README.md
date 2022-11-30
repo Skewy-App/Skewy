@@ -53,7 +53,7 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 
 - [x] Technician would be able to create their own account.
 - [x] Technician would login with their own credentials.
-- [ ] Technician can add a new work order.
+- [x] Technician can add a new work order.
 - [x] Orders in progress can be viewed.
 - [x] Past service orders with all details can be viewed.
 
