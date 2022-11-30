@@ -1,5 +1,13 @@
 # Skewy App
 
+## Build Sprint 3 video walkthrough
+
+Here's a walkthrough of implemented user stories:
+this week we are pretty much done with necessary user stories so I tried doing different doing approaches of what we had and changed anything that could've been made more practical for the user, or simply went better with the app layout.
+
+<img src='https://github.com/Skewy-App/Skewy/blob/main/Skewy_Sprint3.gif' />
+
+
 ## Build Sprint 2 video walkthrough
 
 Here's a walkthrough of implemented user stories:
