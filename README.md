@@ -1,5 +1,14 @@
 # Skewy App
 
+## Build Sprint (Final) video walkthrough
+
+Here's a walkthrough of implemented user stories:
+All user stories are working as intended. will now spend time preparing our presentation and make appeal-based changes to the app.
+
+<img src='https://github.com/Skewy-App/Skewy/blob/main/Skewy_FinalSprint.gif' />
+
+
+
 ## Build Sprint 3 video walkthrough
 
 Here's a walkthrough of implemented user stories:
