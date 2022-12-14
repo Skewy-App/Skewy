@@ -1,5 +1,9 @@
 # Skewy App
 
+## Demo Day video walkthrough
+
+<img src='https://github.com/Skewy-App/Skewy/blob/main/Skewy_FinalSprint.gif' />
+
 ## Build Sprint (Final) video walkthrough
 
 Here's a walkthrough of implemented user stories:
@@ -107,8 +111,6 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 * Past orders
    * Jumps to another feed screen, this time consisting of all past/completed work orders; with tab bar controller on the bottom.
       * Tapping any entry would, again, move to a page consisting of all order details.
-* Billing
-   * User would be able to create a new bill outlining all cost details, as well as a quote for customers who are simply requesting an estimate on their repairs.
    
 ## Wireframes
 <img src="https://github.com/Skewy-App/Skewy/blob/main/Skewy%20paper%20wireframe.jpg" width=600>
@@ -129,8 +131,7 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
 | serviceInfo     | String   | details of the work being done on the car                |
 | timeTaken       | Number   | total time taken from start to finish (past orders tab)  |
 | serviceName     | String   | name of service done as it would appear on the bill      |
-| serviceCost     | Number   | how much a specific service cost                         |
-| totalCost       | Number   | sum of all service costs on a given bill                 |
+
 
 
 
@@ -189,15 +190,5 @@ Keeps track of vehicles currently being operated on in an auto repair shop. Tech
    }  }
   ```
 
-* Billing
-  * (Create/POST) Create a Bill
-  ```swift
-  let query = PFQuery(className:"createBill")
-        query.includeKeys(["licensePlate", "vehicleChar", "serviceName", "serviceCost", "totalCost"])
-  ```
-  * (Create/POST) Create a Quote
-  ```swift
-    let query = PFQuery(className:"createQuote")
-        query.includeKeys(["licensePlate", "vehicleChar", "serviceName", "serviceCost", "totalCost"])
-  ```
+  
 
