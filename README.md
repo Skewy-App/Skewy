@@ -2,7 +2,7 @@
 
 ## Demo Day video walkthrough
 
-<img src='https://github.com/Skewy-App/Skewy/blob/main/Skewy_FinalSprint.gif' />
+<img src='https://github.com/Skewy-App/Skewy/blob/main/video.mp4' />
 
 ## Build Sprint (Final) video walkthrough
 
